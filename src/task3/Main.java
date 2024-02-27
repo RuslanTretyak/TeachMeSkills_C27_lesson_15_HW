@@ -8,7 +8,7 @@ public class Main {
         boolean isInputCorrect;
         String inputString;
         do {
-            System.out.println("введите размер коллекции");
+            System.out.println("введите размер коллекции (целое число более 0)");
             inputString = scanner.next();
             isInputCorrect = Validator.checkInput(inputString);
         } while (!isInputCorrect);
